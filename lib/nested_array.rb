@@ -32,8 +32,8 @@ def sorted_matrix
     CONVENTIONAL_PRODUCE,
     ORGANIC_PRODUCE
     ]
-    CONVENTIONAL_PRODUCE.sort()
-    ORGANIC_PRODUCE.sort()
+    CONVENTIONAL_PRODUCE.sort(array)
+    ORGANIC_PRODUCE.sort(array)
     sorted_matrix
 end
 
