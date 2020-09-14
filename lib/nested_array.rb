@@ -32,8 +32,8 @@ def sorted_matrix
     CONVENTIONAL_PRODUCE,
     ORGANIC_PRODUCE
     ]
-    Cp = CONVENTIONAL_PRODUCE.sort()
-    Og = ORGANIC_PRODUCE.sort()
+    CONVENTIONAL_PRODUCE.sort()
+    ORGANIC_PRODUCE.sort()
 end
 
 def matrix_lookup(matrix, row, column)
